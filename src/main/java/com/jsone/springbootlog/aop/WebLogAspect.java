@@ -15,7 +15,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;
 
-@Aspect
+@Aspect//创建切面
 @Component
 @Slf4j
 public class WebLogAspect {
